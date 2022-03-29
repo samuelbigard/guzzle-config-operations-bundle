@@ -27,7 +27,7 @@ class RecursiveObjectNormalizer extends ObjectNormalizer
      */
     protected function instantiateObject(
         array &$data,
-        $class,
+        string $class,
         array &$context,
         \ReflectionClass $reflectionClass,
         $allowedAttributes,
